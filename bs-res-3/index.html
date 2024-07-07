@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS Demo-3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css" integrity="sha512-hj9rznBPdFg9A4fACbJcp4ttzdinMDtPrtZ3gBD11DiY3O1xJfn0r1U5so/J0zwfGOzq9teIaH5rFmjFAFw8SA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>    
+    <link rel="stylesheet" type="text/css" href="https://slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="bg-white position-fixed z-3 w-100 start-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand col-lg-2" href="#">
+                        <img src="./assets/images/logo.png" class="img-fluid" width="170" height="85" alt="logo">
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 col-lg-4 justify-content-evenly">
+                        <li><a href="#" class="link active1">Home</a></li>
+                        <li><a href="#" class="link" title="Html">Html</a></li>
+                        <li><a href="#" class="link" title="Css">Css</a></li>
+                        <li><a href="#" class="link" title="Layout">Layout</a></li>
+                        <li><a href="#" class="link" title="Bootstrap">Bootstrap</a></li>
+                    </ul>
+                    <form class="d-flex align-items-center col-lg-7 gap-5 ms-5" role="search">
+                        <div class="search-input d-flex align-items-center col-7">
+                            <input class="form-control plc-src rounded-pill px-4" type="search" placeholder="Enter keyword, Item # or Part #" aria-label="Search">
+                            <i class="fa fa-search icon"></i>
+                        </div>
+                        <button type="button" class="btn btn-book py-3 rounded-0 ">
+                            Order Now
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- Header Section Complete -->
+
+    <!-- Slider Section Starts -->
+    <section>   
+          
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="height: 850px;">
+                <img src="./assets/images/bg-slide-1.png" alt="" class="img-fluid object-fit-cover h-100" height="850" width="1920" >
+                <div class="position-absolute d-flex flex-column justify-content-center w-100 mx-auto banner-content text-center z-2">
+                    <h1 class="txt-head text-white">Lorem ipsum dolor sit amet </h1>
+                    <p class="txt-para text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div> 
+              </div>
+              <div class="swiper-slide banner-img" style="height: 850px;">
+                <img src="./assets/images/bg-slide-2.png" alt="" class="img-fluid object-fit-cover h-100" height="850" width="1920" >
+                <div class="position-absolute d-flex flex-column justify-content-center w-100 mx-auto banner-content text-center z-2">
+                    <h1 class="txt-head text-white">Lorem ipsum dolor sit amet </h1>
+                    <p class="txt-para text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div> 
+              </div>                      
+            </div>
+            <div class="swiper-button-next" ><img src="./assets/images/arrow2.png" alt=""></i></div>
+            <div class="swiper-button-prev" ><img src="./assets/images/arrow1.png" alt=""></i></div>
+            <div class="swiper-pagination page"></div> 
+        </div>       
+    </section>
+    <!-- Slider Section Complete -->
+
+    <!-- img-text Section start -->
+    <section class="mt-5 pt-5 mb-5">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-center">
+                <div>
+                    <h2 class="txt-head">
+                        Lorem ipsum dolor sit amet
+                    </h2>
+                    <p class="txt-para col-9 mt-3 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="d-flex align-items-baseline">
+                        <p class="txt-link">Explore More</p>
+                        <span class="px-3">
+                            <img src="./assets/images/arrow.png" alt="arrow">
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/images/txt-img-1.png" width="512" height="411" alt="img">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center bg-white mt--200">
+                <div class="p-4 bg-white">
+                    <img src="./assets/images/txt-img-2.png" width="536.26" height="338" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- img-text Section comp -->
+
+    <!-- card-txt section start -->
+    <section class="pt-5 mb-5">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="txt-head text-center">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-7 mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="row flex-column flex-lg-row justify-content-center align-items-center mt-5 mb-5">
+                <div class="col-12 mb-5 col-sm-6 col-lg-4 mb-lg-0 position-relative">
+                    <div class="product">
+                        <img src="./assets/images/card-1.png" width="380" height="512" class="img-fluid w-100" alt="img">
+                    </div>
+                    <div class="h3 mb-0">
+                        <h3 class="txt-head fs-32 text-center">Lorem ipsum dolor</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-5 col-sm-6 col-lg-4 mb-lg-0 position-relative">
+                    <div class="product">
+                        <img src="./assets/images/card-2.png" width="380" height="512" class="img-fluid w-100" alt="img">
+                    </div>
+                    <div class="h3 mb-0">
+                        <h3 class="txt-head fs-32 text-center">Lorem ipsum dolor</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-5 col-sm-6 col-lg-4 mb-lg-0 position-relative">
+                    <div class="product">
+                        <img src="./assets/images/card-3.png" width="380" height="512" class="img-fluid w-100" alt="img">
+                    </div>
+                    <div class="h3 mb-0">
+                        <h3 class="txt-head fs-32 text-center">Lorem ipsum dolor</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-view py-3 rounded-0">
+                    View More
+                </button>
+            </div>
+            
+        </div>
+    </section>
+    <!-- card-txt section comp -->
+
+    <!-- bg-video section start -->
+    <section class="position-relative">
+        <div class="bg-vidd">
+            <img src="./assets/images/vid-bg.png" width="1900" height="450" alt="bg-vid" class="img-fluid">
+            <div>
+                <button type="button" class="bg-transparent border-0 position-absolute btn-vid" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./assets/images/vid-icn.png" alt="icon"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered ">
+                  <div class="modal-content h-100">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    <div class="modal-body">
+                        <video class="vid h-100"autoplay controls>
+                            <source src="./assets/video/demo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- bg-video section comp -->
+
+    <!-- bg-image-txt section satrt -->
+    <section class="bg-img pt-lg-5 mb-5">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h2 class="txt-head">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-7 mx-auto mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="parent-slide col-12 mx-auto">
+                <div class="slider-card pt-5">
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <img src="./assets/images/c-1.png" width="570" height="360" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title txt-head fs-40 mt-3">Lorem Ipsum</h5>
+                          <h6 class="card-subtitle mb-2 txt-para ff-inter mt-3 mb-3">01.02.2023</h6>
+                          <p class="card-text txt-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </p>
+                        </div>
+                    </div>
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <img src="./assets/images/c-2.png" width="570" height="360" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title txt-head fs-40 mt-3">Lorem Ipsum</h5>
+                            <h6 class="card-subtitle mb-2 txt-para ff-inter mt-3 mb-3">01.02.2023</h6>
+                            <p class="card-text txt-para">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                          </div>
+                    </div>
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <img src="./assets/images/c-1.png" width="570" height="360" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title txt-head fs-40 mt-3">Lorem Ipsum</h5>
+                          <h6 class="card-subtitle mb-2 txt-para ff-inter mt-3 mb-3">01.02.2023</h6>
+                          <p class="card-text txt-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </p>
+                        </div>
+                    </div>
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <img src="./assets/images/c-2.png" width="570" height="360" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title txt-head fs-40 mt-3">Lorem Ipsum</h5>
+                          <h6 class="card-subtitle mb-2 txt-para ff-inter mt-3 mb-3">01.02.2023</h6>
+                          <p class="card-text txt-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 position-absolute mt-3 slick-arrow">
+                    <div data-prev class="prev-1">
+                        <img src="./assets/images/ar-l.png" alt="">
+                    </div>
+                    <div data-next class="next-1">
+                        <img src="./assets/images/ar-r.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- bg-image-txt section end -->
+
+    <!-- slider-resize starts -->
+    <section class="pt-lg-5 mb-5">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h2 class="txt-head">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-7 mx-auto mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            
+            <div class="container-new order-imgs" data-slider="true">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-1.png" style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-2.png" style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-2">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-3.png" style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-3">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+
+                </div>
+                <div class="d-flex gap-3 position-absolute arr-l-r">
+                    <div data-prev class="order-imgs-prev">
+                        <img src="./assets/images/ar-l.png" alt="">
+                    </div>
+                    <div data-next class="order-imgs-next">
+                        <img src="./assets/images/ar-r.png" alt="">
+                    </div>
+                </div>
+            </div>
+					
+        </div>
+    </section>
+    <!-- slider-resize end -->
+ 
+    <!-- text-img-2 start -->
+    <section class="mt-5 pt-5 mb-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="txt-head">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-7 mx-auto mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="d-flex col-12 gap-5 justify-content-center mt-5">
+                <div class="img-content d-flex flex-column justify-content-center">
+                    <img src="./assets/images/food-txt.png" class="text-center mx-auto" width="446" height="300" alt="img">
+                    <h2 class="txt-head text-center mx-auto">
+                        Lorem ipsum
+                    </h2>
+                    <p class="txt-para col-9 mx-auto mt-3 mb-4 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="img-content d-flex flex-column justify-content-center">
+                    <img src="./assets/images/food-txt-1.png" class="text-center mx-auto" width="446" height="300" alt="img">
+                    <h2 class="txt-head text-center mx-auto">
+                        Lorem ipsum
+                    </h2>
+                    <p class="txt-para col-9 mx-auto mt-3 mb-4 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- text-img-2 end -->
+
+    <!-- form-upper-txt-section start -->
+    <section class="mt-5 pt-3 mb-5">
+        <div class="text-center">
+            <h2 class="txt-head mb-3">
+                Lorem ipsum form
+            </h2>
+        </div>
+    </section>
+    <!-- form-upper-txtsection end -->
+
+    <!-- form-section start -->
+    <section class="mt-5 mb-5 pt-3 bg-form">
+        <div class="container position-relative z-5 br-15">
+            <div class="d-flex mt-5">
+                <div class="img w-40">
+                    <img src="./assets/images/frm-left.png" class="object-fit-cover rounded-start-4 w-100" width="585" height="680" alt="img">
+                </div>
+                <div class="frm_bg w-60 rounded-end-4 p-5 mb-5">
+                    <form action="" class="gap-5 d-flex flex-column">
+                        <input type="text" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" placeholder="Your name" aria-label="Your name">
+                        <div class="invalid-feedback">
+                          Valid first name is required.
+                        </div>
+                        <input type="email" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" id="email" placeholder="Your Email">
+                        <div class="invalid-feedback">
+                          Please enter a valid email address for shipping updates.
+                        </div>
+                        <input type="text" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" id="m-number" placeholder="Your Contact Number" required>
+                        <div class="invalid-feedback">
+                          Valid mobile number is required.
+                        </div>
+                        <input type="number" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" id="p-number" placeholder="Number Of Persons" required>
+                        <div class="invalid-feedback">
+                          Valid Persons number is required.
+                        </div>
+                        <input type="date" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" id="date"  value required placeholder="Book Date">
+                        <div class="invalid-feedback">
+                            Valid date is required.
+                        </div>
+                        <input type="time" class="form-control bg-transparent border-0 border-bottom rounded-0 border-dark shadow-none" id="time"  value required placeholder="Your Time">
+                        <div class="invalid-feedback">
+                            Valid time is required.
+                        </div>
+                        <div class="col-12 text-left pt-3">
+                          <button type="submit" class="btn col-lg-3 btn-book border-0 btn-book-new font-inter rounded-0  border-0">Book Now</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form-section end -->
+
+    <!-- rev slider start -->
+    <section class="mt-5 pt-5">
+        <div class="container">
+            <div class="text-center">
+            <h2 class="txt-head mb-3">
+                Lorem ipsum
+            </h2>
+            </div>
+            <div class="container-new order-imgs-1" dir="rtl" data-slider="true">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-1.png" style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-2.png" style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-2">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-3.png" style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-3">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <img src="./assets/images/slide-zin-4.png"style="height: 100%" class="object-fit-cover img-fluid w-100" height="601" width="805" alt="slide-4">
+                            </div>
+                        </div>
+
+                </div>
+                <div class="d-flex gap-3 position-absolute arr-l-r">
+                    <div data-prev class="order-imgs-prev">
+                        <img src="./assets/images/ar-r.png" alt="">
+                    </div>
+                    <div data-next class="order-imgs-next">
+                        <img src="./assets/images/ar-l.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rev slider start -->
+   
+    <!-- chef card slider start -->
+    <section class="mt-5 pt-lg-5 mb-5">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h2 class="txt-head">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <p class="txt-para col-7 mx-auto mt-3 mb-4 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="parent-slide col-12 mx-auto">
+                <div class="slide-card-2 pt-5">
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <div class="card-body mx-auto text-center">
+                            <img src="./assets/images/chef-1.png" width="121" height="118" class="rounded-circle mx-auto mt-3" alt="...">
+                            
+                            <p class="card-text txt-para lato-italic mt-3 col-10 mx-auto">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                            </p>
+                            <h5 class="card-title chef-ff mt-3">Lorem Ipsum</h5>
+                        </div>
+                    </div>
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <div class="card-body mx-auto text-center">
+                            <img src="./assets/images/chef-2.png" width="121" height="118" class="rounded-circle mx-auto mt-3" alt="...">
+                            
+                            <p class="card-text txt-para lato-italic mt-3 col-10 mx-auto">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                            </p>
+                            <h5 class="card-title chef-ff mt-3">Lorem Ipsum</h5>
+                        </div>
+                    </div>
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <div class="card-body mx-auto text-center">
+                            <img src="./assets/images/chef-1.png" width="121" height="118" class="rounded-circle mx-auto mt-3" alt="...">
+                            
+                            <p class="card-text txt-para lato-italic mt-3 col-10 mx-auto">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                            </p>
+                            <h5 class="card-title chef-ff mt-3">Lorem Ipsum</h5>
+                        </div>
+                    </div>
+                    <div class="card border-0 rounded-0" style="width: 28rem;">
+                        <div class="card-body mx-auto text-center">
+                            <img src="./assets/images/chef-2.png" width="121" height="118" class="rounded-circle mx-auto mt-3" alt="...">
+                            
+                            <p class="card-text txt-para lato-italic mt-3 col-10 mx-auto">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                            </p>
+                            <h5 class="card-title chef-ff mt-3">Lorem Ipsum</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 position-absolute mt-3 mb-5 slick-arrow">
+                    <div data-prev class="prev">
+                        <img src="./assets/images/ar-l.png" alt="">
+                    </div>
+                    <div data-next class="next">
+                        <img src="./assets/images/ar-r.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- chef card slider end -->
+
+    <!-- News-letter start -->
+    <section class="mt-6-rem pt-5 bg-news position-relative">
+        <div class="container position-relative">
+            <div class="news-main mx-auto pb-5">
+                <h2 class="txt-head text-white text-center fs-40 mb-5">
+                    Newsletter Sign Up
+                </h2>
+                <p class="fs-16 txt-para mb-3">SIGN UP FOR NEWS AND SPECIAL OFFER</p>
+                <input type="email" name="text" id="email" placeholder="Enter Email Address" class="fs-18 font-lato-regular bg-transparent border-0 border-bottom py-2 w-75 d-block d-md-inline-block mb-4 mb-md-0 ">
+                <button type="submit" class="btn btn-book border-0 btn-book-new font-inter rounded-0 border-0">Subscribe</button>       
+            </div>
+        </div>
+    </section>
+    <!-- News-letter end -->
+    
+    <!-- Footer start -->
+    <footer class="text-center text-lg-start background">
+          <div class="container text-center text-md-start">
+            <!-- Grid row -->
+                <div class="row gy-4 justify-content-between">
+                <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6 col-12 mt-3">
+                        <!-- Content -->
+                        <img src="./assets/images/logo.png"  class="mt-5 mb-5 img-fluid" width="170" height="85">
+                        <p class="txt-para">
+                            Interessante Seiten
+                        </p>
+                        <p class="txt-para">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical, May one Which life divide sea.
+                        </p>
+                        <div class="social-icon-1 mt-5 mb-5">
+                            <a class="link-social-1" href="#" title="social-link"><img src="./assets/images/XMLID_2_.png" width="22" height="18" alt=""></a>
+                            <a class="link-social-1" href="#" title="social-link"><img src="./assets/images/XMLID_7_.png" width="22" height="18" alt=""></a>
+                            <a class="link-social-1" href="#" title="social-link"><i class="fab fa-facebook-f icon-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mt-3 mb-5">
+                        <h3 class="txt-head fs-28 mt-5">Contact Us</h3>
+                        <p class="txt-para col-12 mt-3 mb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 776688-mumbai.
+                        </p>
+                        <p class="footer-txt mt-5 mb-3">
+                        <a>+39  0472 647 122</a>
+                        </p>
+                        <p class="footer-txt mt-3 mb-3">
+                            <a>+39 0472 647 350</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-4 mt-5">
+                        <div>
+                            <img src="./assets/images/footer-img.png" class="img-fluid" width="446" height="351" alt="">
+                        </div>
+                    </div>
+                </div>
+          </div>
+    </footer>
+
+    <!-- Footer end -->
+    
+    <!-- Copyright Start -->
+    <section class="cp-bg">
+        <div class="container">
+            <div class="text-center p-3 footer-txt">
+                <a href="#" class="text-white">© 2023 Quiety Rights Reserved. Designed By LoremIpsum</a>
+              </div>
+        </div>
+    </section>
+    <!-- Copyright end -->
+
+    <!-- Script -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        var swiper1 = new Swiper(".mySwiper", {
+            /* autoplay: {
+                delay: 5000,
+            }, */
+            pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+
+        /*  */
+        $(".slider-card").slick({
+            slidesToShow: 2,
+            infinite:false,
+            accessibility: true,    
+            slidesToScroll: 1,
+            autoplay: false,    
+            autoplaySpeed: 3000,
+            infinite: true,
+            dots: false,
+            prevArrow: $('.prev-1'),
+            nextArrow: $('.next-1'),
+        });
+
+        $(".slide-card-2").slick({
+            slidesToShow: 2,
+            infinite:false,
+            accessibility: true,    
+            slidesToScroll: 1,
+            autoplay: false,    
+            autoplaySpeed: 3000,
+            infinite: true,
+            dots: false,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+        });
+        /*  */
+
+
+        /* streams */
+
+
+        var streamsSlider = new Swiper('.order-imgs', {
+        autoplay: false,
+        freeMode: true,
+        loop: true,
+        // pagination: {
+        //     el: '[data-streams-pagination]',
+        //     clickable: true,
+        // },
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        navigation: {
+            nextEl: '.order-imgs-next',
+            prevEl: '.order-imgs-prev',
+        },
+        // slidesPerView: 1,
+        // slidesPerGroup: 1,
+		//  spaceBetween: -80,
+        // breakpoints: {
+        //     0: {
+        //         slidesPerView: 1,
+        //         slidesPerGroup: 1,
+        //     },
+        //     350: {
+        //         slidesPerView: 2,
+        //         slidesPerGroup: 1,
+        //     },
+        //     750: {
+        //         slidesPerView: 3,
+        //         slidesPerGroup: 1,
+        //     }
+        // }
+    });
+    var streamsSlider = new Swiper('.order-imgs-1', {
+        autoplay: false,
+        freeMode: true,
+        loop: true,
+        // pagination: {
+        //     el: '[data-streams-pagination]',
+        //     clickable: true,
+        // },
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        navigation: {
+            nextEl: '.order-imgs-next',
+            prevEl: '.order-imgs-prev',
+        },
+        // slidesPerView: 1,
+        // slidesPerGroup: 1,
+		//  spaceBetween: -80,
+        // breakpoints: {
+        //     0: {
+        //         slidesPerView: 1,
+        //         slidesPerGroup: 1,
+        //     },
+        //     350: {
+        //         slidesPerView: 2,
+        //         slidesPerGroup: 1,
+        //     },
+        //     750: {
+        //         slidesPerView: 3,
+        //         slidesPerGroup: 1,
+        //     }
+        // }
+    });
+
+    </script>
+    <!-- Script end -->
+
+</body>
+</html>
